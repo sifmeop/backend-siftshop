@@ -1,0 +1,8 @@
+export interface HeadphoneDetail {
+  headphone_type: string
+  connection_type: string
+  interface_connection: string[]
+  microphone: boolean
+  construction_microphone: string
+  color: string
+}
