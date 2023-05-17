@@ -7,11 +7,12 @@ import { HeadphoneAppleModule } from './headphone/apple/apple.module'
 import { HeadphoneModule } from './headphone/headphone.module'
 import { HeadphoneJblModule } from './headphone/jbl/jbl.module'
 import { HeadphoneSonyModule } from './headphone/sony/sony.module'
+import { MainPageModule } from './main-page/main-page.module'
 import { PhoneAppleModule } from './phone/apple/apple.module'
 import { PhoneGoogleModule } from './phone/google/google.module'
 import { PhoneModule } from './phone/phone.module'
 import { PhoneXiaomiModule } from './phone/xiaomi/xiaomi.module'
-import { SearchModule } from './search/search.module';
+import { SearchModule } from './search/search.module'
 
 @Module({
   imports: [
@@ -26,7 +27,8 @@ import { SearchModule } from './search/search.module';
     HeadphoneJblModule,
     HeadphoneSonyModule,
     HeadphoneModule,
-    SearchModule
+    SearchModule,
+    MainPageModule
   ],
   providers: [AppService],
   controllers: [AppController]
