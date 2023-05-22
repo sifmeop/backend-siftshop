@@ -3,7 +3,7 @@ import { HeadphoneDetail } from 'src/types/headphone.interface'
 import { Product } from 'src/types/product.interface'
 import { JblService } from './jbl.service'
 
-@Controller('headphone')
+@Controller('headphones')
 export class JblController {
   constructor(private readonly appleService: JblService) {}
 

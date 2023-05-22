@@ -3,7 +3,7 @@ import { HeadphoneDetail } from 'src/types/headphone.interface'
 import { Product } from 'src/types/product.interface'
 import { AppleService } from './apple.service'
 
-@Controller('headphone')
+@Controller('headphones')
 export class AppleController {
   constructor(private readonly appleService: AppleService) {}
 

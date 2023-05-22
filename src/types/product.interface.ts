@@ -1,7 +1,8 @@
 export interface Product<T> {
   id: string
   name: string
-  category: 'phone' | 'headphone' | 'laptop'
+  brand: string
+  category: 'phones' | 'headphones' | 'laptops'
   price: number
   image: string[]
   rating: number

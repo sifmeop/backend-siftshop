@@ -6,7 +6,8 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Apple AirPods Max Pink',
-    category: 'headphone',
+    brand: 'Apple',
+    category: 'headphones',
     image: [
       'headphones/apple/airpods-max/1.webp',
       'headphones/apple/airpods-max/2.webp',
@@ -27,7 +28,8 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Apple AirPods with Charging Case',
-    category: 'headphone',
+    brand: 'Apple',
+    category: 'headphones',
     image: [
       'headphones/apple/airpods/1.webp',
       'headphones/apple/airpods/2.webp',
@@ -48,7 +50,8 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Apple iPhone EarPods with Mic Lightning',
-    category: 'headphone',
+    brand: 'Apple',
+    category: 'headphones',
     rating: 3.5,
     image: ['headphones/apple/earpods/1.webp'],
     price: 999,
@@ -67,7 +70,8 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone JBL Quantum One Black',
-    category: 'headphone',
+    brand: 'JBL',
+    category: 'headphones',
     rating: 4.5,
     image: [
       'headphones/jbl/quantum-one/1.webp',
@@ -88,7 +92,8 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone JBL Wave 100 TWS Black',
-    category: 'headphone',
+    brand: 'JBL',
+    category: 'headphones',
     rating: 4,
     image: [
       'headphones/jbl/wave-100/1.webp',
@@ -110,7 +115,8 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone JBL T110 Black',
-    category: 'headphone',
+    brand: 'JBL',
+    category: 'headphones',
     rating: 3.5,
     image: [
       'headphones/jbl/t110/1.webp',
@@ -135,7 +141,8 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Sony INZONE H9 White',
-    category: 'headphone',
+    brand: 'Sony',
+    category: 'headphones',
     rating: 4.5,
     image: [
       'headphones/sony/inzone-h9/1.webp',
@@ -157,7 +164,8 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Sony MDR-ZX310 Black',
-    category: 'headphone',
+    brand: 'Sony',
+    category: 'headphones',
     rating: 4,
     image: [
       'headphones/sony/mdr-zx310/1.webp',
@@ -178,7 +186,8 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Headphone Sony WF-C500 Black',
-    category: 'headphone',
+    brand: 'Sony',
+    category: 'headphones',
     rating: 3.5,
     image: [
       'headphones/sony/wf-c500/1.webp',

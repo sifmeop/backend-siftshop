@@ -3,7 +3,7 @@ import { HeadphoneDetail } from 'src/types/headphone.interface'
 import { Product } from 'src/types/product.interface'
 import { SonyService } from './sony.service'
 
-@Controller('headphone')
+@Controller('headphones')
 export class SonyController {
   constructor(private readonly appleService: SonyService) {}
 

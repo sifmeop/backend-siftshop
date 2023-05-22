@@ -16,4 +16,8 @@ export class HeadphoneService {
 
     return headphone
   }
+
+  getRelated(except: string): Product<HeadphoneDetail>[] {
+    return headphones.filter((headphone) => headphone.id !== except)
+  }
 }

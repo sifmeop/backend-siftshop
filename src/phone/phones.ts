@@ -6,7 +6,8 @@ export const applePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Apple iPhone 14 128GB Midnight',
-    category: 'phone',
+    brand: 'Apple',
+    category: 'phones',
     image: [
       'phones/apple/iphone14/1.webp',
       'phones/apple/iphone14/2.webp',
@@ -31,7 +32,8 @@ export const applePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Apple iPhone 13 128GB Midnight',
-    category: 'phone',
+    brand: 'Apple',
+    category: 'phones',
     image: [
       'phones/apple/iphone13/1.webp',
       'phones/apple/iphone13/2.webp',
@@ -57,7 +59,8 @@ export const applePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Apple iPhone 12 128GB Purple',
-    category: 'phone',
+    brand: 'Apple',
+    category: 'phones',
     rating: 4.2,
     image: [
       'phones/apple/iphone12/1.webp',
@@ -82,7 +85,8 @@ export const applePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Apple iPhone 11 128GB Black',
-    category: 'phone',
+    brand: 'Apple',
+    category: 'phones',
     rating: 4,
     image: [
       'phones/apple/iphone11/1.webp',
@@ -112,7 +116,8 @@ export const googlePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Google Pixel 7 128GB Obsidian',
-    category: 'phone',
+    brand: 'Google',
+    category: 'phones',
     image: ['phones/google/pixel7/1.webp'],
     price: 37_620,
     rating: 5,
@@ -132,7 +137,8 @@ export const googlePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Google Pixel 6 8/128GB Stormy Black',
-    category: 'phone',
+    brand: 'Google',
+    category: 'phones',
     image: [
       'phones/google/pixel6/1.webp',
       'phones/google/pixel6/2.webp',
@@ -159,7 +165,8 @@ export const googlePhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Google Pixel 5 8/128GB Just Black',
-    category: 'phone',
+    brand: 'Google',
+    category: 'phones',
     image: [
       'phones/google/pixel5/1.webp',
       'phones/google/pixel5/2.webp',
@@ -188,7 +195,8 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Xiaomi 13 12/256GB Black',
-    category: 'phone',
+    brand: 'Xiaomi',
+    category: 'phones',
     image: ['phones/xiaomi/13/1.webp', 'phones/xiaomi/13/2.webp'],
     price: 40_563,
     rating: 5,
@@ -208,7 +216,8 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Xiaomi 12 8/256GB Gray',
-    category: 'phone',
+    brand: 'Xiaomi',
+    category: 'phones',
     image: ['phones/xiaomi/12/1.webp'],
     price: 30_804,
     rating: 4.7,
@@ -228,7 +237,8 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
   {
     id: uuidv4(),
     name: 'Phone Xiaomi Mi 11i 8/128GB Celestial Silver',
-    category: 'phone',
+    brand: 'Xiaomi',
+    category: 'phones',
     image: ['phones/xiaomi/mi11i/1.webp', 'phones/xiaomi/mi11i/2.webp'],
     price: 19_658,
     rating: 4,

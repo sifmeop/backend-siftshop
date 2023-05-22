@@ -3,7 +3,7 @@ import { PhoneDetail } from 'src/types/phone.interface'
 import { Product } from 'src/types/product.interface'
 import { XiaomiService } from './xiaomi.service'
 
-@Controller('phone')
+@Controller('phones')
 export class XiaomiController {
   constructor(private readonly xiaomiService: XiaomiService) {}
 

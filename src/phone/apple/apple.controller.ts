@@ -3,7 +3,7 @@ import { PhoneDetail } from 'src/types/phone.interface'
 import { Product } from 'src/types/product.interface'
 import { AppleService } from './apple.service'
 
-@Controller('phone')
+@Controller('phones')
 export class AppleController {
   constructor(private readonly appleService: AppleService) {}
 

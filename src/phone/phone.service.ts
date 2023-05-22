@@ -16,4 +16,8 @@ export class PhoneService {
 
     return phone
   }
+
+  getRelated(except: string): Product<PhoneDetail>[] {
+    return phones.filter((phone) => phone.id !== except)
+  }
 }
