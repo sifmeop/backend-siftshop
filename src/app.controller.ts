@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Get(':id')
-  getProductById(@Param('id') id: string) {
-    return this.appService.getProductById(id)
+  getProductByIdWithExcepted(@Param('id') id: string) {
+    return this.appService.getProductByIdWithExcepted(id)
   }
 }

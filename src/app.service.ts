@@ -10,7 +10,7 @@ export class AppService {
     return this.products
   }
 
-  getProductById(id: string) {
+  getProductByIdWithExcepted(id: string) {
     const product = this.products.find((product) => product.id === id)
 
     if (!product) {
