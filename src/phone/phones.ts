@@ -42,7 +42,7 @@ export const applePhones: Product<PhoneDetail>[] = [
       'phones/apple/iphone13/5.webp'
     ],
     price: 33_499,
-    rating: 4.8,
+    rating: 5,
     details: {
       screen_diagonal: 6.1,
       display_resolution: '2532x1170',
@@ -61,7 +61,7 @@ export const applePhones: Product<PhoneDetail>[] = [
     name: 'Phone Apple iPhone 12 128GB Purple',
     brand: 'Apple',
     category: 'phones',
-    rating: 4.2,
+    rating: 4,
     image: [
       'phones/apple/iphone12/1.webp',
       'phones/apple/iphone12/2.webp',
@@ -148,7 +148,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
       'phones/google/pixel6/6.webp'
     ],
     price: 19_262,
-    rating: 4.6,
+    rating: 4,
     details: {
       screen_diagonal: 6.4,
       display_resolution: '2400x1080',
@@ -175,7 +175,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
       'phones/google/pixel5/5.webp'
     ],
     price: 29_999,
-    rating: 4.3,
+    rating: 4,
     details: {
       screen_diagonal: 6,
       display_resolution: '2340x1080',
@@ -220,7 +220,7 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
     category: 'phones',
     image: ['phones/xiaomi/12/1.webp'],
     price: 30_804,
-    rating: 4.7,
+    rating: 4,
     details: {
       screen_diagonal: 6.28,
       display_resolution: '2400x1080',

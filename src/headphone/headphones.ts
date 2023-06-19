@@ -15,12 +15,12 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
       'headphones/apple/airpods-max/4.webp'
     ],
     price: 26_999,
-    rating: 4.5,
+    rating: 5,
     details: {
       headphone_type: 'Full size',
       connection_type: 'Wireless',
       interface_connection: ['Bluetooth'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'Pink'
     }
@@ -42,7 +42,7 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'TWS (2 separately)',
       connection_type: 'Wireless',
       interface_connection: ['Bluetooth'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'White'
     }
@@ -52,14 +52,14 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
     name: 'Headphone Apple iPhone EarPods with Mic Lightning',
     brand: 'Apple',
     category: 'headphones',
-    rating: 3.5,
+    rating: 3,
     image: ['headphones/apple/earpods/1.webp'],
     price: 999,
     details: {
       headphone_type: 'Vacuum',
       connection_type: 'Wired',
       interface_connection: ['Lightning'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Placed on a wire',
       color: 'White'
     }
@@ -72,7 +72,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
     name: 'Headphone JBL Quantum One Black',
     brand: 'JBL',
     category: 'headphones',
-    rating: 4.5,
+    rating: 5,
     image: [
       'headphones/jbl/quantum-one/1.webp',
       'headphones/jbl/quantum-one/2.webp',
@@ -84,7 +84,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'Full size',
       connection_type: 'Wired',
       interface_connection: ['2х 3.5 мм', 'USB', 'USB Type-C'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Pull-out',
       color: 'Black'
     }
@@ -107,7 +107,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'TWS (2 separately)',
       connection_type: 'Wireless',
       interface_connection: ['Bluetooth'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'Black'
     }
@@ -117,7 +117,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
     name: 'Headphone JBL T110 Black',
     brand: 'JBL',
     category: 'headphones',
-    rating: 3.5,
+    rating: 2,
     image: [
       'headphones/jbl/t110/1.webp',
       'headphones/jbl/t110/2.webp',
@@ -130,7 +130,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'Vacuum',
       connection_type: 'Wired',
       interface_connection: ['3.5 мм'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Placed on a wire',
       color: 'Black'
     }
@@ -143,7 +143,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
     name: 'Headphone Sony INZONE H9 White',
     brand: 'Sony',
     category: 'headphones',
-    rating: 4.5,
+    rating: 5,
     image: [
       'headphones/sony/inzone-h9/1.webp',
       'headphones/sony/inzone-h9/2.webp',
@@ -156,7 +156,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'Full size',
       connection_type: 'Wireless',
       interface_connection: ['Bluetooth'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'White'
     }
@@ -178,7 +178,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'Invoices',
       connection_type: 'Wired',
       interface_connection: ['3.5 мм'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'Black'
     }
@@ -188,7 +188,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
     name: 'Headphone Sony WF-C500 Black',
     brand: 'Sony',
     category: 'headphones',
-    rating: 3.5,
+    rating: 3,
     image: [
       'headphones/sony/wf-c500/1.webp',
       'headphones/sony/wf-c500/2.webp',
@@ -200,7 +200,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
       headphone_type: 'TWS (2 separately)',
       connection_type: 'Wireless',
       interface_connection: ['Bluetooth'],
-      microphone: true,
+      microphone: 'Yes',
       construction_microphone: 'Built into the headphone case',
       color: 'Black'
     }
