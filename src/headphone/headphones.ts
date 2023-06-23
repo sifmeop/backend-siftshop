@@ -1,10 +1,9 @@
 import { HeadphoneDetail } from 'src/types/headphone.interface'
 import { Product } from 'src/types/product.interface'
-import { v4 as uuidv4 } from 'uuid'
 
 export const appleHeadphones: Product<HeadphoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Apple_AirPods_Max_Max_Pink',
     name: 'Headphone Apple AirPods Max Pink',
     brand: 'Apple',
     category: 'headphones',
@@ -26,7 +25,7 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_AirPods_with_Charging_Case',
     name: 'Headphone Apple AirPods with Charging Case',
     brand: 'Apple',
     category: 'headphones',
@@ -48,7 +47,7 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_EarPods_with_Lightning_Connector',
     name: 'Headphone Apple iPhone EarPods with Mic Lightning',
     brand: 'Apple',
     category: 'headphones',
@@ -68,7 +67,7 @@ export const appleHeadphones: Product<HeadphoneDetail>[] = [
 
 export const jblHeadphones: Product<HeadphoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'JBL_Quantum_One_Black',
     name: 'Headphone JBL Quantum One Black',
     brand: 'JBL',
     category: 'headphones',
@@ -90,7 +89,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'JBL_Wave_100_TWS_Black',
     name: 'Headphone JBL Wave 100 TWS Black',
     brand: 'JBL',
     category: 'headphones',
@@ -113,7 +112,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'JBL_T110_Black',
     name: 'Headphone JBL T110 Black',
     brand: 'JBL',
     category: 'headphones',
@@ -139,7 +138,7 @@ export const jblHeadphones: Product<HeadphoneDetail>[] = [
 
 export const sonyHeadphones: Product<HeadphoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Sony_INZONE_H9_White',
     name: 'Headphone Sony INZONE H9 White',
     brand: 'Sony',
     category: 'headphones',
@@ -162,7 +161,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Sony_MDR-ZX310_Black',
     name: 'Headphone Sony MDR-ZX310 Black',
     brand: 'Sony',
     category: 'headphones',
@@ -184,7 +183,7 @@ export const sonyHeadphones: Product<HeadphoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Sony_WF-C500_Black',
     name: 'Headphone Sony WF-C500 Black',
     brand: 'Sony',
     category: 'headphones',

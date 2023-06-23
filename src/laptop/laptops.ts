@@ -1,10 +1,9 @@
-import { v4 as uuidv4 } from 'uuid'
 import { LaptopDetail } from '../types/laptop.interface'
 import { Product } from '../types/product.interface'
 
 export const appleLaptops: Product<LaptopDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Apple_MacBook_Air_13_M1_8_256GB_2020_Space_Gray',
     name: 'Laptop Apple MacBook Air 13" M1 8/256GB 2020 Space Gray',
     brand: 'Apple',
     category: 'laptops',
@@ -32,7 +31,7 @@ export const appleLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_MacBook_Air_14_M2_Pro_16_512GB_2023_Space_Gray',
     name: 'Laptop Apple MacBook Pro 14" M2 Pro 16/512GB 2023 Space Gray',
     brand: 'Apple',
     category: 'laptops',
@@ -59,7 +58,7 @@ export const appleLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_MacBook_Pro_16_M2_Pro_16_512GB_2023_Space_Gray',
     name: 'Laptop Apple MacBook Pro 16" M2 Pro 16/512GB 2023 Space Gray',
     brand: 'Apple',
     category: 'laptops',
@@ -90,7 +89,7 @@ export const appleLaptops: Product<LaptopDetail>[] = [
 
 export const asusLaptops: Product<LaptopDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Asus_TUF_Gaming_F15_Bonfire_Black',
     name: 'Laptop ASUS TUF Gaming F15 Bonfire Black',
     brand: 'ASUS',
     category: 'laptops',
@@ -118,7 +117,7 @@ export const asusLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Asus_Vivobook_GO_15_Cool_Silver',
     name: 'Laptop ASUS Vivobook Go 15 Cool Silver',
     brand: 'ASUS',
     category: 'laptops',
@@ -148,7 +147,7 @@ export const asusLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Asus_X515EA_Slate_Grey',
     name: 'Laptop ASUS Laptop X515EA Slate Grey',
     brand: 'ASUS',
     category: 'laptops',
@@ -180,7 +179,7 @@ export const asusLaptops: Product<LaptopDetail>[] = [
 
 export const dellLaptops: Product<LaptopDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Dell_Inspiron_3511_Black',
     name: 'Laptop Dell Inspiron 3511 Black',
     brand: 'Dell',
     category: 'laptops',
@@ -208,7 +207,7 @@ export const dellLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Dell_Vostro_15_Black',
     name: 'Laptop Dell Vostro 15 Black',
     brand: 'Dell',
     category: 'laptops',
@@ -237,7 +236,7 @@ export const dellLaptops: Product<LaptopDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Dell_Latitude_5540_Grey',
     name: 'Laptop Dell Latitude 5540 Grey',
     brand: 'Dell',
     category: 'laptops',

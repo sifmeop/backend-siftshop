@@ -134,7 +134,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: 'Google_Pixel_6_8/128GB_Stormy_Black',
+    id: 'Google_Pixel_6_128GB_Stormy_Black',
     name: 'Phone Google Pixel 6 8/128GB Stormy Black',
     brand: 'Google',
     category: 'phones',
@@ -162,7 +162,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: 'Google_Pixel_5_8/128GB_Just_Black',
+    id: 'Google_Pixel_5_128GB_Just_Black',
     name: 'Phone Google Pixel 5 8/128GB Just Black',
     brand: 'Google',
     category: 'phones',
@@ -192,7 +192,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
 
 export const xiaomiPhones: Product<PhoneDetail>[] = [
   {
-    id: 'Xiaomi_Mi_13_12/256GB_Black',
+    id: 'Xiaomi_Mi_13_256GB_Black',
     name: 'Phone Xiaomi 13 12/256GB Black',
     brand: 'Xiaomi',
     category: 'phones',
@@ -213,7 +213,7 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: 'Xiaomi_Mi_12_8/256GB_Gray',
+    id: 'Xiaomi_Mi_12_256GB_Gray',
     name: 'Phone Xiaomi 12 8/256GB Gray',
     brand: 'Xiaomi',
     category: 'phones',
@@ -234,7 +234,7 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: 'Xiaomi_Mi_11i_8/128GB_Celestial_Silver',
+    id: 'Xiaomi_Mi_11i_128GB_Celestial_Silver',
     name: 'Phone Xiaomi Mi 11i 8/128GB Celestial Silver',
     brand: 'Xiaomi',
     category: 'phones',
