@@ -1,10 +1,9 @@
 import { PhoneDetail } from 'src/types/phone.interface'
 import { Product } from 'src/types/product.interface'
-import { v4 as uuidv4 } from 'uuid'
 
 export const applePhones: Product<PhoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Apple_iPhone_14_128GB_Midnight',
     name: 'Phone Apple iPhone 14 128GB Midnight',
     brand: 'Apple',
     category: 'phones',
@@ -30,7 +29,7 @@ export const applePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_iPhone_13_128GB_Midnight',
     name: 'Phone Apple iPhone 13 128GB Midnight',
     brand: 'Apple',
     category: 'phones',
@@ -57,7 +56,7 @@ export const applePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_iPhone_12_128GB_Purple',
     name: 'Phone Apple iPhone 12 128GB Purple',
     brand: 'Apple',
     category: 'phones',
@@ -83,7 +82,7 @@ export const applePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Apple_iPhone_11_128GB_Purple',
     name: 'Phone Apple iPhone 11 128GB Black',
     brand: 'Apple',
     category: 'phones',
@@ -114,7 +113,7 @@ export const applePhones: Product<PhoneDetail>[] = [
 
 export const googlePhones: Product<PhoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Google_Pixel_7_128GB_Obsidian',
     name: 'Phone Google Pixel 7 128GB Obsidian',
     brand: 'Google',
     category: 'phones',
@@ -135,7 +134,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Google_Pixel_6_8/128GB_Stormy_Black',
     name: 'Phone Google Pixel 6 8/128GB Stormy Black',
     brand: 'Google',
     category: 'phones',
@@ -163,7 +162,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Google_Pixel_5_8/128GB_Just_Black',
     name: 'Phone Google Pixel 5 8/128GB Just Black',
     brand: 'Google',
     category: 'phones',
@@ -193,7 +192,7 @@ export const googlePhones: Product<PhoneDetail>[] = [
 
 export const xiaomiPhones: Product<PhoneDetail>[] = [
   {
-    id: uuidv4(),
+    id: 'Xiaomi_Mi_13_12/256GB_Black',
     name: 'Phone Xiaomi 13 12/256GB Black',
     brand: 'Xiaomi',
     category: 'phones',
@@ -214,7 +213,7 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Xiaomi_Mi_12_8/256GB_Gray',
     name: 'Phone Xiaomi 12 8/256GB Gray',
     brand: 'Xiaomi',
     category: 'phones',
@@ -235,7 +234,7 @@ export const xiaomiPhones: Product<PhoneDetail>[] = [
     }
   },
   {
-    id: uuidv4(),
+    id: 'Xiaomi_Mi_11i_8/128GB_Celestial_Silver',
     name: 'Phone Xiaomi Mi 11i 8/128GB Celestial Silver',
     brand: 'Xiaomi',
     category: 'phones',
