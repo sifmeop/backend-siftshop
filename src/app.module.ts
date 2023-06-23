@@ -17,7 +17,6 @@ import { PhoneGoogleModule } from './phone/google/google.module'
 import { PhoneModule } from './phone/phone.module'
 import { PhoneXiaomiModule } from './phone/xiaomi/xiaomi.module'
 import { SearchModule } from './search/search.module'
-import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -37,8 +36,7 @@ import { AuthModule } from './auth/auth.module';
     LaptopModule,
     HeadphoneModule,
     SearchModule,
-    MainPageModule,
-    AuthModule
+    MainPageModule
   ],
   providers: [AppService],
   controllers: [AppController]
